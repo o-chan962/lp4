@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* ページ全体のスタイル
+------------------------------------------ */
+body {
+    font-family: 'Noto Sans JP';
+    line-height: 1.75;
+    color: #000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+/* flexbox */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Outfitフォント */
+.outfit {
+    font-family: 'Outfit';
+    font-weight: 600;
+}
+
+/*各セクションの左右の余白*/
+.about,
+.reasons,
+.faq {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #000;
+    background-color: #FFFAF5;
+}
+
+.contact{
+    background-color: #BCE0EB;
+}
+
+.container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+.section__title-main{
+    color: #004DA4;
+}
+
+.section__title-sub{
+    font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .section__title-sub{
+        font-size: 1.75rem;
+    }
+}
+
+/* ボタン */
+.button {
+    display: block;
+    color: #fff;
+    background-color: #004DA4;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0 auto;
+    max-width: 14.5rem;
+    width: 100%;
+    height: 2.813rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+.button:hover {
+    background-color: #FD5B19;
+}
+
+/* header
+------------------------------------------ */
