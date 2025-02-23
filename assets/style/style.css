@@ -22,13 +22,6 @@ li {
     list-style: none;
 }
 
-/* flexbox */
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /* Outfitフォント */
 .outfit {
     font-family: 'Outfit';
@@ -191,6 +184,12 @@ span.reasons_logo.outfit {
     margin: 4rem auto 1rem;
 }
 
+.reasons__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (min-width: 768px) {
     .reasons__list {
         display: flex;
@@ -232,7 +231,7 @@ p.qa__q-icon.outfit {
     color: #FD5B19;
 }
 
-h4.qa__accordion-title-text {
+p.qa__accordion-title-text {
     text-align: left;
     padding-right: 3rem;
 }
